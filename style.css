@@ -31,3 +31,7 @@ h1 {
   border: 3px solid #333;
   display: block;
 }
+
+#lightbox-overlay-text {
+  display: none;
+}
