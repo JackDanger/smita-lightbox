@@ -5,7 +5,6 @@ var API_KEY = '3a26f36ac015fa09111911faeaf6eedc'
 
 $.getJSON("http://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key="+API_KEY+"&photoset_id=72157600007733788&format=json&jsoncallback=?",
   function (data) {
-    console.log(data.photoset.photo[0])
     $.each(data.photoset.photo, function (i, photo) {
         var image = $("<img/>")
                     .attr("src",
