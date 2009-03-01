@@ -1,0 +1,33 @@
+
+
+body {
+  margin: 0 200px;
+  padding: 0;
+  background-color: #000;
+
+  /* these will be tried in the order they're listed.  The first one
+     that works will be used. */
+  font-family: "Palatino Linotype", "Book Antiqua", Georgia, Helvetica;
+}
+
+/* this removes the ugly blue border that appears on linked images by default */
+a img { border: none;}
+
+/* The text at the top of the page */
+h1 {
+  color: #CCC;
+  font-weight: normal; /*This can also be 'bold'*/
+}
+
+/* center the list of photos */
+#photos {
+  margin: 0px ;
+}
+#photos div {
+  float: left;
+  margin: 1em 4em 1em 0;
+}
+#photos div a {
+  border: 4px solid #333;
+  display: block;
+}
